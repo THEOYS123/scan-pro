@@ -21,7 +21,7 @@ Didesain untuk pentester, bug hunter, dan researcher agar terlihat **profesional
 # install tools
 
 ```
-git clone https://github.com/THEOYS123/scan-pro && cd scan-pro && clear && bash main.py
+git clone https://github.com/THEOYS123/scan-pro && cd scan-pro && clear && python main.py -h
 ```
 
 ## 📖 Cara Pakai
