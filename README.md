@@ -18,14 +18,20 @@ Didesain untuk pentester, bug hunter, dan researcher agar terlihat **profesional
 - 📊 Output ke **Console (colored)**, **JSON**, dan **HTML Report keren**.
 
 ---
+# install tools
+
+```
+git clone https://github.com/THEOYS123/scan-pro && cd scan-pro && clear && bash main.py
+```
 
 ## 📖 Cara Pakai
 ```bash
-python3 ultrascanner.py <url_target> --full-scan -o hasil_scan
+python main.py <url_target> --full-scan -o hasil_scan
 
 Contoh:
 
-python3 ultrascanner.py https://example.com --scan-sqli --scan-xss --depth 3 -t 10 -o report
+python main.py https://example.com --scan-sqli --scan-xss --depth 3 -t 10 -o report
+```
 
 
 ---
